@@ -1,2 +1,0 @@
-con while no tiene porque ejecutarse esa parte del código (mínimo 0)
-con do while tiene que ejecutarse minimamente es parte del código 1 vez
