@@ -13,11 +13,11 @@ end
 puts "\n"
 
 def say_hello
-  puts "Holi Holi"
+  puts "Hola"
   yield if block_given? # ejecutamos el bloque solo si lo recepcionamos, esto es si tenemos el bloque
   # esto también nos permite utilizar esta condición para su caso contrario, es decir, si no recive ningún bloque; que ejecute otras sentencias etc.
 end
 
 say_hello do
-  puts "Maja pero no me liaría"
+  puts "Hola2"
 end
