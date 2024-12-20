@@ -1,1 +1,0 @@
-el concepto de sobreescritura en otros lenguajes suele aplicar un decorador de override = @override pero en el caso de Ruby no es necesario
