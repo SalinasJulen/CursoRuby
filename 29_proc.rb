@@ -1,16 +1,16 @@
-def say_hello (mentirosa1, mentirosa2, mentirosa3)
+def say_hello (c1, c2, c3)
   puts "Holi Holi"
-  mentirosa1.call
-  mentirosa2.call
-  mentirosa3.call
+  c1.call
+  c2.call
+  c3.call
 end
 
-def say_bye (mentirosa1, mentirosa2, mentirosa3)
+def say_bye (c1, c2, c3)
   puts "Chaito"
-  mentirosa1.call
-  mentirosa2.call
-  mentirosa3.call
-  puts "Tu no te vas, tu conmigo"
+  c1.call
+  c2.call
+  c3.call
+  puts "Fin Mensaje"
 end
 
 
@@ -20,22 +20,22 @@ end
 =end
 
 
-mentirosa1 = Proc.new {
-  puts "-La mira-"
-  puts "Maja pero no me liaría"
+c1 = Proc.new {
+  puts "Mensaje c1 1"
+  puts "Mensaje c2 2"
 }
 
-mentirosa2 = Proc.new {
-  puts "-La mira-"
-  puts "Maja pero no me liaría x2"
+c2 = Proc.new {
+  puts "Mensaje c2 1"
+  puts "Mensaje c2 2"
 }
 
-mentirosa3 = Proc.new {
-  puts "-La mira-"
-  puts "Ven conmigo reina"
+c3 = Proc.new {
+  puts "Mensaje c3 1"
+  puts "Mensaje c3 2"
 }
 
 
-say_hello(mentirosa1, mentirosa2, mentirosa3)
+say_hello(c1, c2, c3)
 puts "\n"
-say_bye(mentirosa1, mentirosa2, mentirosa3)
+say_bye(c1, c2, c3)
