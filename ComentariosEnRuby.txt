@@ -1,0 +1,2 @@
+los comentarios de 1 línea los hacemos con # y un espacio
+los comentarios de + de 1 línea los hacemos con =begin =end

@@ -1,0 +1,1 @@
+Las posiciones de los arrays en Ruby empiezan desde 0, al igual que Java

@@ -1,0 +1,1 @@
+si no especificamos de que clase hereda una de estas, por defecto lo hará de la clase object

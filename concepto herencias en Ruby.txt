@@ -1,0 +1,1 @@
+a diferencia de otros lenguajes de programación, en Ruby 1 clase solo va a poder heredar de 1 clase

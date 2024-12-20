@@ -1,0 +1,1 @@
+con el proc "transformamos" un bloque en un objeto

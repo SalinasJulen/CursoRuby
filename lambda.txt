@@ -1,0 +1,1 @@
+la diferencia entre lambda y proc es que con proc "transformamos" un bloque a un objeto, y con lambda "transformamos" el bloque a una variablw

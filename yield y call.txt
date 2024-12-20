@@ -1,0 +1,2 @@
+Si todo el bloque va a ir recepcionado a una sola función usaremos el yield ya que es más rápido.
+En cambio y pese a ser más pesado, usaremos variables y .call si necesitamos usar el bloque en otras subfunciones adeás de la primera a la que lo recepcionamos
